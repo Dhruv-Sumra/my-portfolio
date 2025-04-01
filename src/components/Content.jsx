@@ -4,6 +4,14 @@ import banner from '/src/assets/poster.webp'
 import { Link } from "react-router-dom";
 
 const Content = () => {
+
+    const handleDownload = () => {
+      const link = document.createElement("a");
+      link.href = "/src/assets/myResume.pdf"; // Replace with your file URL or path
+      link.download = "myResume.pdf"; // File name for download
+      link.click();
+    }
+  
   return (
     <div className="flex justify-between items-center">
       <div className="pt-35 text-center space-y-10">
@@ -26,7 +34,7 @@ const Content = () => {
         <br />
 
         <div className="space-y-3 md:space-y-0 md:space-x-5 md:flex justify-center">
-          <button className="shadow-md rounded-xl p-3 outline-1 bg-green-300 text-lg font-bold cursor-pointer opacity-90 hover:opacity-100">
+          <button onClick={handleDownload} className="shadow-md rounded-xl p-3 outline-1 bg-green-300 text-lg font-bold cursor-pointer opacity-90 hover:opacity-100">
             Download CV <i class="fa-solid fa-download"></i>
           </button>
           <br />
