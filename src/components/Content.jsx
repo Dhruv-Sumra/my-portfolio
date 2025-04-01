@@ -7,8 +7,8 @@ const Content = () => {
 
     const handleDownload = () => {
       const link = document.createElement("a");
-      link.href = "/src/assets/myResume.pdf"; // Replace with your file URL or path
-      link.download = "myResume.pdf"; // File name for download
+      link.href = "/src/assets/My_Resume.pdf"; 
+      link.download = "My_Resume.pdf";
       link.click();
     }
   
