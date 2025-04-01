@@ -1,0 +1,45 @@
+{
+    "projects":[
+        {
+            "id":1,
+            "title":"Watch Website",
+            "body":"A front-end based watch collection website",
+            "img":"https://i.ibb.co/F48fSXt4/figma-Watch.jpg",
+            "link":"https://watch-website-zbee.vercel.app/",
+            "gitlink":"https://github.com/Dhruv-Sumra/watch-frontend.git"
+        },
+        {
+            "id":2,
+            "title":"Stream site",
+            "body":"Site named Spider man movies streaming site",
+            "img":"https://i.ibb.co/Q3HvqfGh/spider.jpg",
+            "link":"https://spider-stream.onrender.com/",
+            "gitlink":"https://github.com/Dhruv-Sumra/spider-stream-frontend.git"
+        },
+        {
+            "id":3,
+            "title":"Sports Website",
+            "body":"Athlethub is react based frontend webapp",
+            "img":"https://i.ibb.co/nqndW9Fm/athlethub.jpg",
+            "link":"https://sport-site-frontend.vercel.app/",
+            "gitlink":"https://github.com/Dhruv-Sumra/sports-site-frontend.git"
+        },
+       
+        {
+            "id":4,
+            "title":"DreamTime Website",
+            "body":"A minor college project in front-end (not-responsive)",
+            "img":"https://i.ibb.co/8DntHgcL/dream-Watch.jpg",
+            "link":"https://dream-watch-frontend.vercel.app/",
+            "gitlink":"https://github.com/Dhruv-Sumra/DreamWatch-frontend.git"
+        },
+        {
+            "id":5,
+            "title":"Blogs site",
+            "body":"Blogs site where we can add and delete blog",
+            "img":"https://i.ibb.co/dTDPjx1/blogs.jpg",
+            "link":"https://blogs-beta-ten.vercel.app/",
+            "gitlink":"https://github.com/Dhruv-Sumra/blogs-create.git"
+        }
+    ]
+}

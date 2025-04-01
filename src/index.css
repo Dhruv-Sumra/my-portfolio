@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+
+
+.dark_bg{
+  @apply bg-green-300;
+}
+
+.light_green_bg{
+  @apply bg-green-100;
+}
+
+.light_bg{
+  @apply bg-amber-100;
+}
+
+.dark_text_green{
+  @apply text-green-600;
+}
+
+.component_size{
+  @apply px-5 sm:px-10 md:px-15 lg:px-20;
+}
+
+.border_bottom{
+  @apply border-b-3 border-transparent md:hover:border-green-700 transition-all duration-300 ;
+}
+
+.opacity_custom{
+  @apply opacity-90 hover:opacity-100;
+}
+
+.custom-shape-divider-bottom-1742904706 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1742904706 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 135px;
+}
+
+.custom-shape-divider-bottom-1742904706 .shape-fill {
+  fill: #D3FFE2;
+}

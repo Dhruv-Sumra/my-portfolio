@@ -1,0 +1,22 @@
+{
+    "work":[
+        {
+            "id":1,
+            "title":"Web Development",
+            "logo":"fa-solid fa-code",
+            "body":"I learned basic react js and continued to build many projects as posible ,I have knowledge about react hooks,logics,states"
+        },
+        {
+            "id":2,
+            "title":"Front-End",
+            "logo":"fa-solid fa-object-group",
+            "body":"Front-end web design and development for interactive websites and applications. It involves using technologies HTML, CSS, and JavaScript to design layouts"
+        },
+        {
+            "id":3,
+            "title":"Computer Operating",
+            "logo":"fa-solid fa-desktop",
+            "body":"I have knowledge about computer operating like creating documents,excel sheets and so on in Ms office and can handle emails too."
+        }
+    ]
+}
