@@ -1,6 +1,6 @@
 import React from "react";
 import {projects} from "../components/projects.json";
-import Footer from "./src/components/footer";
+import Footer from "/src/components/footer.jsx";
 
 const Projects = () => {
   return (
