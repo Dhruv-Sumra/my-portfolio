@@ -1,6 +1,6 @@
 import React from 'react'
 import Social from '../components/Social'
-import Footer from '../components/footer'
+import Footer from '/src/components/footer'
 
 const Contact = () => {
   return (

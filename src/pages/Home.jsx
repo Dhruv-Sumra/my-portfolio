@@ -3,7 +3,7 @@ import Content from '../components/Content'
 import Skils from '../components/Work'
 import About from '../components/About'
 import ProjectSec from '../components/ProjectSec'
-import Footer from '/src/components/Footer'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
