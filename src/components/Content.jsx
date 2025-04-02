@@ -2,15 +2,10 @@ import React from "react";
 import Social from "./Social";
 import banner from '/src/assets/poster.webp'
 import { Link } from "react-router-dom";
+import resume from '/src/assets/My_Resume.pdf'
 
 const Content = () => {
 
-    const handleDownload = () => {
-      const link = document.createElement("a");
-      link.href = "/src/assets/My_Resume.pdf"; 
-      link.download = "My_Resume.pdf";
-      link.click();
-    }
   
   return (
     <div className="flex justify-between items-center">
@@ -34,9 +29,9 @@ const Content = () => {
         <br />
 
         <div className="space-y-3 md:space-y-0 md:space-x-5 md:flex justify-center">
-          <button onClick={handleDownload} className="shadow-md rounded-xl p-3 outline-1 bg-green-300 text-lg font-bold cursor-pointer opacity-90 hover:opacity-100">
+         <a href={resume} target="_blank" download={"Resune"}><button className="shadow-md rounded-xl p-3 outline-1 bg-green-300 text-lg font-bold cursor-pointer opacity-90 hover:opacity-100">
             Download CV <i class="fa-solid fa-download"></i>
-          </button>
+          </button></a> 
           <br />
           <Link to={'contact'}><button className="shadow-md rounded-xl p-3 outline-1 px-5 text-lg font-bold cursor-pointer opacity-90 hover:opacity-100">
             Contact Me <i class="fa-solid fa-paper-plane"></i>
